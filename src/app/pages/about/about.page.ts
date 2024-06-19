@@ -8,8 +8,34 @@ import { Watch } from '@shared/components/watch/watch'
 @Component({
   selector: 'about',
   template: `
-  <section class="flex flex-col max-w-screen-lg justify-between mx-auto gap-16 dark:text-gray-200 overflow-y-hidden">
-  <div class="flex flex-col gap-5">
+  <section class="max-w-screen-lg mx-auto dark:text-gray-200 overflow-y-hidden">
+  <div class="section">
+    <div class="flex container">
+    <br>
+    <div class="flex col flex-row">
+    <div class="col col-5">
+    <img class="img-responsive product-image-large" src="/assets/image/biography.jpg" alt="biography">
+    </div>
+    <div class="col col-2">
+        <h2><span style="color:#004ac5;">Daniel T Nowinski</span></h2>
+        <br>
+        <h4>Entrepreneur, Volunteer, and Political Wonk</h4>
+        <br>
+        <p>
+I grew up in Richmond, California at a time when it was listed among the most violent cities in the nation. I was in elementary school when my friend was kidnapped and brutally murdered at a local park. I realized that I shared a similar fate of poverty and violence if I didn’t carve out a new future for myself. My grit and fearlessness gave me the momentum I needed to reach my escape velocity.
+<br>
+I found solace in my science teachers that were brought to my school by NSF grants. They encouraged me to go to pursue science and go to college. Knowing what it feels like to have people making it their mission to support you has been the biggest motivator in my desire to give back and volunteer when opportunities arose.
+<br>
+As an extrovert, I always enjoy meeting new people, finding out what they’re passionate about, and comparing notes on what makes us happy. I firmly believe that I wouldn’t have gotten half as far as I have without peer mentoring and developing a small group of advisors to continue pushing myself.
+        </p>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="flex flex-col gap-5">
       <h1 class="text-2xl font-semibold dark:text-white">About Me</h1>
       <p class="justify-start">I'm Marc Kevin Flores, a software
         engineer with over
