@@ -35,10 +35,10 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
   </div>
   <div class="container">
   <div class="row align-items-start">
-    <div class="col-4">
+    <div class="container col-4">
               <a href="https://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
             </div>
-            <div class="row align-items-start">
+            <div class="container col-6">
             <div class="col-2">
                   <h3>Vulpe Lab</h3>
             </div>
@@ -58,12 +58,6 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
                   </div>
                   </div>
                   </div>
-  <div class="flex flex-col gap-5">
-  <h1 class="text-2xl font-semibold dark:text-white">Activity:</h1>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-  </div>
-  </div>
-
 <div class="flex flex-col gap-5">
 <h1 class="text-2xl font-semibold dark:text-white">Contact Information:</h1>
 
@@ -77,7 +71,7 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
 </section>
 `,
   encapsulation: ViewEncapsulation.None,
-  imports: [NgFor, Music, Watch],
+  imports: [NgFor],
   standalone: true
 })
 export class AboutPage{
@@ -90,51 +84,16 @@ export class AboutPage{
       ['bio', 'biography', 'information', 'about', 'contact', 'detail']
       )
   }
-  public aboutDetails =  [
-    {
-      title: 'What I Do',
-      desc: `I've worked on a variety of projects, ranging from
-      mobile apps and web development to optimizing performance, writing clean code, and emphasizing good design
-      principles. I take pride in my attention to detail and commitment to creating efficient, well-designed solutions
-      that meet both user needs and industry standards. I'm your go-to person for JavaScript frameworks and ensuring
-      the overall quality of software development projects.`
-    },
-    {
-      title: 'Always Learning',
-      desc: `I'm always eager to learn new things. Whether
-      it's staying updated on the latest technologies or exploring different coding techniques, I enjoy expanding my
-      knowledge to grow as a developer.`
-    },
-    {
-      title: 'Off-Duty Fun',
-      desc: `During my off-duty hours, I find joy in coding, exploring new aspects of coding, and staying updated by reading
-      the latest blogs on technology. I also enjoy playing games on my phone, watching videos, listening to popular
-      songs, and taking refreshing walks outside. It's important for me to spend quality time with my family and
-      friends.`
-    },
-    {
-      title: 'Why I Code',
-      desc: `I code because it allows me to turn ideas into
-      reality. It's a creative outlet that lets me build useful and innovative solutions. Coding challenges me to
-      solve problems and continuously improve my skills. Ultimately, it's my way of making a positive impact through
-      technology.`
-    },
-  ];
   public contactInfo = [
     {
       title: 'Address',
-      desc: `Caloocan City, Metro Manila, Philippines`,
+      desc: `Washington, D.C.`,
       link: 'https://maps.app.goo.gl/dT2aE2RxeQTEA7ne7'
     },
     {
-      title: 'Mobile Number',
-      desc: '+639092884082',
-      link: 'tel:+639092884082'
-    },
-    {
       title: 'Email',
-      desc: 'marc@kevinflor.es',
-      link: 'mailto:marc@kevinflor.es'
+      desc: 'hello@dnowinski.com',
+      link: 'mailto:hello@dnowinski.com'
     }
   ]
 }
