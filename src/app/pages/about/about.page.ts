@@ -9,7 +9,7 @@ import { Watch } from '@shared/components/watch/watch'
   selector: 'about',
   template: `
   <section class="max-w-screen-lg mx-auto dark:text-gray-200 overflow-y-hidden">
-  <div class="section">
+  <div class="container">
     <div class="flex container">
     <br>
     <div class="flex col flex-row">
@@ -23,38 +23,50 @@ import { Watch } from '@shared/components/watch/watch'
         <br>
         <p>
 I grew up in Richmond, California at a time when it was listed among the most violent cities in the nation. I was in elementary school when my friend was kidnapped and brutally murdered at a local park. I realized that I shared a similar fate of poverty and violence if I didn’t carve out a new future for myself. My grit and fearlessness gave me the momentum I needed to reach my escape velocity.
-<br>
+<br><br>
 I found solace in my science teachers that were brought to my school by NSF grants. They encouraged me to go to pursue science and go to college. Knowing what it feels like to have people making it their mission to support you has been the biggest motivator in my desire to give back and volunteer when opportunities arose.
-<br>
+<br><br>
 As an extrovert, I always enjoy meeting new people, finding out what they’re passionate about, and comparing notes on what makes us happy. I firmly believe that I wouldn’t have gotten half as far as I have without peer mentoring and developing a small group of advisors to continue pushing myself.
         </p>
-
-
 
       </div>
     </div>
   </div>
-</div>
-<div class="flex flex-col gap-5">
-      <h1 class="text-2xl font-semibold dark:text-white">About Me</h1>
-      <p class="justify-start">I'm Marc Kevin Flores, a software
-        engineer with over
-        five years of
-        experience. I specialize in turning
-        ideas into polished software, blending innovation with user-friendly design. 🚀</p>
-      <p *ngFor="let a of aboutDetails"><b class="dark:text-white text-black">{{a.title}}</b><br />{{a.desc}}
-      </p>
   </div>
+  <div class="container">
+  <div class="row align-items-start">
+    <div class="col-4">
+              <a href="https://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
+            </div>
+            <div class="row align-items-start">
+            <div class="col-2">
+                  <h3>Vulpe Lab</h3>
+            </div>
+            <div class="col-2">
+            <h4><span style="color:#004ac5;">August 2010 - July 2012</span></h4>
+            </div>
+            <div class="row align-items-end">
+            <div class="col-4">
+                  <h4><strong>Assistant Research Team Leader</strong></h4>
+                  <p>
+
+                  I was in the ecotoxicogenomics division of the lab, and worked on a very diverse set of chemicals during my tenure. When I became the most senior undergraduate researcher, I was approved to hire and train a team of new students. This bump in productivity led to several significant scientific <a href="https://www.researchgate.net/profile/Daniel_Nowinski" target="_blank">publications</a>. I am still incredibly proud of the work my team was able to accomplish.
+
+                  </p>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
   <div class="flex flex-col gap-5">
   <h1 class="text-2xl font-semibold dark:text-white">Activity:</h1>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-    <music/>
-    <watch/>
   </div>
   </div>
 
 <div class="flex flex-col gap-5">
 <h1 class="text-2xl font-semibold dark:text-white">Contact Information:</h1>
+
   @for(c of contactInfo; track $index){
     <p>
       <b class="dark:text-white text-black ">{{c.title}}:</b><br />
