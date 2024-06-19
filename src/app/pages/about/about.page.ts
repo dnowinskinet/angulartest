@@ -34,20 +34,19 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
   </div>
   </div>
   <div class="container">
-  <div class="flex flex-row">
-    <div class="flex-col gap-4">
+  <div class="row align-items-start">
+    <div class="container col-4">
               <a href="https://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
             </div>
-            <div class="flex-col">
-              <div class="flex flex-col sm:flex-row gap-4 justify-between">
-            <div class="flex flex-col sm:flex-row gap-4 justify-between">
-                  <h2>Vulpe Lab</h2><br>
+            <div class="container col-6">
+            <div class="col-2">
+                  <h3>Vulpe Lab</h3>
             </div>
-            <div class="flex flex-col sm:flex-row gap-4 justify-between">
-            <h4 text-align="right"><span style="color:#004ac5;">August 2010 - July 2012</span></h4>
-            </div></div>
-            <div class="row">
-            <div class="">
+            <div class="col-2">
+            <h4><span style="color:#004ac5;">August 2010 - July 2012</span></h4>
+            </div>
+            <div class="row align-items-end">
+            <div class="col-4">
                   <h4><strong>Assistant Research Team Leader</strong></h4>
                   <p>
 
