@@ -16,8 +16,6 @@ import { Loader } from '@shared/components/loader/loader';
     @defer(on immediate){
       <intro/>
       <expertise-area/>
-      <language-tools/>
-      <in-work/>
     }@placeholder {
       <loader/>
     }

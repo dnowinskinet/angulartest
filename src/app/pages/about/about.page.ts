@@ -15,9 +15,9 @@ import profileData from '@data/profile.data';
     <img class="img-responsive product-image-large" src="/assets/image/biography.jpg" alt="biography">
     </div>
     <div class="col col-2">
-        <h2><span class="text-primary">Daniel T Nowinski</span></h2>
+        <h2><span class="text-primary">Daniel T Nowinski</span> <span> (He/Him)</span></h2>
         <br>
-        <h4>Entrepreneur, Volunteer, and Political Wonk</h4>
+        <h4>Data Narrativist and Analytics Nerd</h4>
         <br>
         <p>
 I grew up in Richmond, California at a time when it was listed among the most violent cities in the nation. I was in elementary school when my friend was kidnapped and brutally murdered at a local park. I realized that I shared a similar fate of poverty and violence if I didn’t carve out a new future for myself. My grit and fearlessness gave me the momentum I needed to reach my escape velocity.

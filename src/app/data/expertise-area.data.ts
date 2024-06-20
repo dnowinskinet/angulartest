@@ -16,23 +16,23 @@ const expertiseAreaData: ExpertiseAreaSchema[] = [
   },
   {
     icon: mobile,
+    percent: '70%',
+    name: 'Technical Systems'
+  },
+  {
+    icon: monitor,
     percent: '80%',
     name: 'Writing/Editing'
   },
   {
-    icon: monitor,
-    percent: '30%',
-    name: 'UX/UI Design'
-  },
-  {
     icon: speed,
-    percent: '75%',
-    name: 'Performance Optimization'
+    percent: '55%',
+    name: 'Public Speaking'
   },
   {
     icon: search,
-    percent: '20%',
-    name: 'Unit Testing'
+    percent: '60%',
+    name: 'Research'
   },
 ]
 

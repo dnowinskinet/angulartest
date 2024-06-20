@@ -30,7 +30,7 @@ import { Subscription, interval } from 'rxjs';
           <icon
           [path]="clockIcon"
           [size]="20"
-        /> <span>{{ currentTime() }} (PHT GMT+8)</span></div>
+        /> <span>{{ currentTime() }} (Eastern Time, GMT -5)</span></div>
 
       <social-link/>
     </div>
