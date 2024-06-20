@@ -1,4 +1,4 @@
-# [kevinflor.es](https://kevinflor.es)
+# [dnowinski.com](https://dnowinski.com)
 
 
 <picture>
@@ -37,8 +37,8 @@ This application requires Node.js v18.13+.
 
 ```bash
 npm install -g @angular/cli
-git clone https://github.com/marckevinflores/kevinflor.es.git
-cd kevinflor.es
+git clone https://github.com/dnowinskinet/dnowinski.com.git
+cd dnowinski.com
 npm install
 ```
 
