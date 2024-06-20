@@ -3,8 +3,6 @@ import { Component, ViewEncapsulation, effect, inject } from '@angular/core';
 import { MetaService } from '@core/services/meta.service';
 import { TraktTvService } from '@core/services/trakt-tv.service';
 import profileData from '@data/profile.data';
-import { Music } from '@shared/components/music/music'
-import { Watch } from '@shared/components/watch/watch'
 @Component({
   selector: 'about',
   template: `
@@ -17,7 +15,7 @@ import { Watch } from '@shared/components/watch/watch'
     <img class="img-responsive product-image-large" src="/assets/image/biography.jpg" alt="biography">
     </div>
     <div class="col col-2">
-        <h2><span style="color:#004ac5;">Daniel T Nowinski</span></h2>
+        <h2><span class="text-primary">Daniel T Nowinski</span></h2>
         <br>
         <h4>Entrepreneur, Volunteer, and Political Wonk</h4>
         <br>
@@ -32,20 +30,142 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
       </div>
     </div>
   </div>
+  </div><br> <br> <br>
+
+<!-- Consulting -->
+<div class="container">
+      <div class="row section section-biowrap">
+        <div class="col-sm-2">
+            <a href="https://www.ecmc.org/"><img src="/assets/image/biography/ecmc.png" alt="ECMC" class="img-responsive" style="max-width: 40%"/></a>
+        </div>
+        <div class="container-fluid col-sm-10">
+        <div class="col-sm-7">
+          <h3>ECMC</h3>
+        </div>
+        <div class="col-sm-4">
+          <h4><span class="text-primary">May 2021 - Present</span></h4>
+        </div>
+        <div class="col-sm-7">
+          <h4><strong>Senior Data Scientist</strong></h4>
+          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+      </div>
+    </div>
   </div>
+    <Br>
+    <Br>
+    <Br>
+<!-- CPP -->
+<div class="container">
+      <div class="row section section-biowrap">
+        <div class="col-sm-2" >
+            <a href="https://www.themyersbriggs.com/" ><img  src="/assets/image/biography/MBTI.png" alt="Myers-Briggs" style="max-width: 40%" /></a>
+        </div>
+        <div class="container-fluid col-sm-10">
+        <div class="col-sm-7">
+          <h3>The Myers-Briggs Company</h3>
+        </div>
+        <div class="col-sm-4">
+          <h4><span class="text-primary">August 2016 - April 2021</span></h4>
+        </div>
+        <div class="col-sm-7">
+          <h4><strong>Operations Manager</strong></h4>
+          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+      </div>
+    </div>
+  </div>
+    <Br>
+    <Br>
+    <Br>
+<!-- Consulting -->
+<div class="container">
+      <div class="row section section-biowrap">
+        <div class="col-sm-2">
+            <a href="https://www.dnowinski.com"><img src="/assets/image/biography/Dhex.png" alt="Consulting" class="img-responsive"/></a>
+        </div>
+        <div class="container-fluid col-sm-10">
+        <div class="col-sm-7">
+          <h3>Daniel T Nowinski</h3>
+        </div>
+        <div class="col-sm-4">
+          <h4><span class="text-primary">August 2014 - August 2016</span></h4>
+        </div>
+        <div class="col-sm-7">
+          <h4><strong>Executive Consultant</strong></h4>
+          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+      </div>
+    </div>
+  </div>
+    <Br>
+    <Br>
+    <Br>
+<!-- U.S. Senate -->
+<div class="container">
+      <div class="row section section-biowrap">
+        <div class="col-sm-2">
+            <a href="https://www.boxer.senate.gov/" target="_blank"><img src="/assets/image/biography/Senate.png" alt="United States Senate" class="img-responsive" /></a>
+        </div>
+        <div class="container-fluid col-sm-10">
+        <div class="col-sm-7">
+          <h3>United States Senate<br>Office of Senator Barbara Boxer</h3>
+        </div>
+        <div class="col-sm-4">
+          <h4><span class="text-primary">January 2015 - May 2015</span></h4>
+        </div>
+        <div class="col-sm-7">
+          <h4><strong>Legislative Intern</strong></h4>
+          <p>
+Serving in the United States Senate was an immense honor and privilege that will be tough to ever rival. As a proud California native, I enjoyed every second I spent working with my fellow constituents and Senator Boxer's staff.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <Br>
+    <Br>
+    <Br>
+
+<!-- GoBeMe -->
+        <div class="container">
+          <div class="row section section-biowrap">
+            <div class="col-sm-2">
+                <a href="https://www.crunchbase.com/organization/gobeme" target="_blank"><img src="/assets/image/biography/GoBeMe.png" alt="GoBeMe" class="img-responsive" /></a>
+            </div>
+            <div class="container-fluid col-sm-10">
+            <div class="col-sm-7">
+              <h3>GoBeMe</h3>
+            </div>
+            <div class="col-sm-4">
+                <h4><span class="text-primary">August 2012 - May 2014</span></h4>
+            </div>
+            <div class="col-sm-7">
+              <h4><strong>Co-Founder, Director of Government Affairs</strong></h4>
+              <p>
+
+                Mentored by the CEO, who was the national director of technology for the Howard Dean Presidential Campaign, I was in charge of government affairs. I was also in charge of building corporate ethos in the field of education, and cold-called dozens of thought leaders to get their advice and endorsements. I turned those meetings into a successful fundraising narrative, and we grew the company from the three of us, to a team of twenty-one.
+
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <Br>
+        <Br>
+        <Br>
+
   <div class="container">
   <div class="row align-items-start">
     <div class="container col-4">
               <a href="https://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
             </div>
-            <div class="container col-6">
-            <div class="col-2">
+            <div class="flex-col">
+            <div class="col">
                   <h3>Vulpe Lab</h3>
             </div>
-            <div class="col-2">
-            <h4><span style="color:#004ac5;">August 2010 - July 2012</span></h4>
+            <div class="col">
+            <h4><span class="text-primary">August 2010 - July 2012</span></h4>
             </div>
-            <div class="row align-items-end">
+            <div class="flex-row">
             <div class="col-4">
                   <h4><strong>Assistant Research Team Leader</strong></h4>
                   <p>
@@ -58,6 +178,9 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
                   </div>
                   </div>
                   </div>
+
+
+                  <br> <br> <br>
 <div class="flex flex-col gap-5">
 <h1 class="text-2xl font-semibold dark:text-white">Contact Information:</h1>
 

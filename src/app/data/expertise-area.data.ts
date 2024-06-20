@@ -1,22 +1,23 @@
 import { ExpertiseAreaSchema } from "@data/schema/expertise-area.schema";
+import { faHand } from "@fortawesome/free-solid-svg-icons";
 import { site, api, mobile, monitor, speed, search } from '@icon/regular.icon'
 
 
 const expertiseAreaData: ExpertiseAreaSchema[] = [
   {
-    icon: site,
+    icon: api,
     percent: '90%',
-    name: 'Web Development'
+    name: 'Operations'
   },
   {
     icon: api,
-    percent: '60%',
-    name: 'API Development'
+    percent: '90%',
+    name: 'Analytics'
   },
   {
     icon: mobile,
-    percent: '70%',
-    name: 'Mobile Development'
+    percent: '80%',
+    name: 'Writing/Editing'
   },
   {
     icon: monitor,

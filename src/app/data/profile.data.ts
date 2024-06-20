@@ -2,11 +2,12 @@ import { ProfileSchema } from "@data/schema/profile.schema";
 
 const profileData: ProfileSchema = {
   name: 'Daniel T Nowinski',
-  bio: 'Happy software engineer from Philippines',
+  bio: 'an ever curious data scientist in Washington, D.C.',
   resumeLink: `DNowinski-Resume.pdf`,
   greetings: [
     'Hello, world',
-    'Kumusta, mundo'
+    'Lorem ipsum',
+    'Hakuna matata'
   ]
 
 }
