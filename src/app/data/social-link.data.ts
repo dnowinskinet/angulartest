@@ -5,27 +5,27 @@ import { github, instagram, linkedin } from '@icon/brand.icon'
 
 const socialLinkData: SocialLinkSchema[] = [
   {
-    name: 'Github',
+    name: 'Steam',
     path: github,
-    link: 'https://github.com/marckevinflores',
+    link: 'https://steamcommunity.com/id/caltox/',
     color: '#c3c3c3',
   },
   {
     name: 'LinkedIn',
     path: linkedin,
-    link: 'https://linkedin.com/in/marckevinflores',
+    link: 'https://linkedin.com/in/dnowinski',
     color: '#1469C7',
   },
   {
     name: 'Message',
     path: envelope,
-    link: 'mailto:marc@kevinflor.es?subject=Hi Marc Kevin!',
+    link: 'mailto:hellp@dnowinski.com?subject=Hello From Your Website!',
     color: '#e74c3c',
   },
   {
     name: 'Instagram',
     path: instagram,
-    link: 'https://instagram.com/mrckvnflrs',
+    link: 'https://instagram.com/caltox88',
     color: '#E52765',
   },
 ];
