@@ -9,19 +9,19 @@ import profileData from '@data/profile.data';
   
 <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-4">
+    <div class="col-span-4 px-3 my-auto px-auto">
     <img class="img-responsive product-image-large" src="/assets/image/biography.jpg" alt="biography">
     </div>
     <div class="col-span-6">
-        <h2><span class="text-primary">Daniel T Nowinski</span> <span> (He/Him)</span></h2>
-        <br>
-        <h4>Data Narrativist and Analytics Nerd</h4>
-        <br>
+        <h2><span class="text-primary text-xl font-semibold">Daniel T Nowinski</span> <span> (He/Him)</span></h2>
+        
+        <h3 class="font-semibold dark">Data Narrativist and Analytics Nerd</h3>
+     
         <p>
 I grew up in Richmond, California at a time when it was listed among the most violent cities in the nation. I was in elementary school when my friend was kidnapped and brutally murdered at a local park. I realized that I shared a similar fate of poverty and violence if I didn’t carve out a new future for myself. My grit and fearlessness gave me the momentum I needed to reach my escape velocity.
-<br><br>
+<br>
 I found solace in my science teachers that were brought to my school by NSF grants. They encouraged me to go to pursue science and go to college. Knowing what it feels like to have people making it their mission to support you has been the biggest motivator in my desire to give back and volunteer when opportunities arose.
-<br><br>
+<br>
 As an extrovert, I always enjoy meeting new people, finding out what they’re passionate about, and comparing notes on what makes us happy. I firmly believe that I wouldn’t have gotten half as far as I have without peer mentoring and developing a small group of advisors to continue pushing myself.
         </p>
 
@@ -32,20 +32,20 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
 <!-- Consulting -->
 <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-2">
-            <a href="https://www.ecmc.org/"><img src="/assets/image/biography/ecmc.png" alt="ECMC" class="img-responsive"/></a>
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <a href="https://www.ecmc.org/" target="_blank"><img src="/assets/image/biography/ecmc.png" alt="ECMC" class="img-responsive"/></a>
         </div>
         <div class="col-span-8">
           <div class="flex flex-row" style="justify-content: space-between">
         <div class="">
-          <h3>ECMC</h3>
+          <h1 class="text-lg dark">ECMC</h1>
         </div>
         <div class="col-sm-4">
-          <h4><span class="text-primary">May 2021 - Present</span></h4>
+          <h1 class="text-lg dark"><span class="text-primary">May 2021 - Present</span></h1>
         </div>
         </div>
         <div class="col-sm-7">
-          <h4><strong>Senior Data Scientist</strong></h4>
+          <h1 class="text-lg dark"><strong>Senior Data Scientist</strong></h1>
           <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
       </div>
     </div>
@@ -56,20 +56,20 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
 <!-- CPP -->
 <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-2">
-            <a href="https://www.themyersbriggs.com/" ><img  src="/assets/image/biography/MBTI.png" alt="Myers-Briggs" class="img-responsive" /></a>
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <a href="https://www.themyersbriggs.com/" target="_blank" ><img  src="/assets/image/biography/MBTI.png" alt="Myers-Briggs" class="img-responsive" /></a>
         </div>
         <div class="col-span-8">
           <div class="flex flex-row" style="justify-content: space-between">
         <div class="">
-          <h3>The Myers-Briggs Company</h3>
+          <h1 class="text-lg dark">The Myers-Briggs Company</h1>
         </div>
         <div class="col-sm-4">
-          <h4><span class="text-primary">August 2016 - April 2021</span></h4>
+          <h1 class="text-lg dark"><span class="text-primary">August 2016 - April 2021</span></h1>
         </div>
         </div>
         <div class="col-sm-7">
-          <h4><strong>Operations Manager</strong></h4>
+          <h1 class="text-lg dark"><strong>Operations Manager</strong></h1>
           <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
       </div>
     </div>
@@ -80,20 +80,20 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
 <!-- Consulting -->
 <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-2">
+    <div class="col-span-2 px-3 my-auto px-auto">
             <a href="https://www.dnowinski.com"><img src="/assets/image/biography/Dhex.png" alt="Consulting" class="img-responsive"/></a>
         </div>
         <div class="col-span-8">
           <div class="flex flex-row" style="justify-content: space-between">
         <div class="">
-          <h2>Daniel T Nowinski</h2>
+          <h1 class="text-lg dark">Daniel T Nowinski</h1>
         </div>
         <div class="col-sm-4">
-          <h4><span class="text-primary">August 2014 - August 2016</span></h4>
+          <h1 class="text-lg dark"><span class="text-primary">August 2014 - August 2016</span></h1>
         </div>
 </div>
         <div class="row">
-          <h4><strong>Executive Consultant</strong></h4>
+          <h1 class="text-lg dark"><strong>Executive Consultant</strong></h1>
           <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
       </div>
     </div>
@@ -104,20 +104,20 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
 <!-- U.S. Senate -->
 <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-2">
+    <div class="col-span-2 px-3 my-auto px-auto">
             <a href="https://www.senate.gov/" target="_blank"><img src="/assets/image/biography/Senate.png" alt="United States Senate" class="img-responsive" /></a>
         </div>
         <div class="col-span-8">
           <div class="flex flex-row" style="justify-content: space-between">
         <div class="">
-          <h3>United States Senate - Office of Senator Barbara Boxer</h3>
+          <h1 class="text-lg dark">United States Senate - Office of Senator Barbara Boxer</h1>
         </div>
         <div class="col-sm-4">
-          <h4><span class="text-primary">January 2015 - May 2015</span></h4>
+          <h1 class="text-lg dark"><span class="text-primary">January 2015 - May 2015</span></h1>
           </div>
           </div>
         <div class="col-sm-7">
-          <h4><strong>Legislative Intern</strong></h4>
+          <h1 class="text-lg dark"><strong>Legislative Intern</strong></h1>
           <p>
 Serving in the United States Senate was an immense honor and privilege that will be tough to ever rival. As a proud California native, I enjoyed every second I spent working with my fellow constituents and Senator Boxer's staff.
 
@@ -133,20 +133,20 @@ Serving in the United States Senate was an immense honor and privilege that will
 <!-- GoBeMe -->
 <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-2">
+    <div class="col-span-2 px-3 my-auto px-auto">
                 <a href="https://www.crunchbase.com/organization/gobeme" target="_blank"><img src="/assets/image/biography/GoBeMe.png" alt="GoBeMe" class="img-responsive" /></a>
             </div>
         <div class="col-span-8">
           <div class="flex flex-row" style="justify-content: space-between">
         <div class="">
-              <h3>GoBeMe</h3>
+        <h1 class="text-lg dark">GoBeMe</h1>
             </div>
             <div class="col-sm-4">
-                <h4><span class="text-primary">August 2012 - May 2014</span></h4>
+                <h1 class="text-lg dark"><span class="text-primary">August 2012 - May 2014</span></h1>
             </div>
 </div>
             <div class="col-sm-7">
-              <h4><strong>Co-Founder, Director of Government Affairs</strong></h4>
+              <h1 class="text-lg dark"><strong>Co-Founder, Director of Government Affairs</strong></h1>
               <p>
 
                 Mentored by the CEO, who was the national director of technology for the Howard Dean Presidential Campaign, I was in charge of government affairs. I was also in charge of building corporate ethos in the field of education, and cold-called dozens of thought leaders to get their advice and endorsements. I turned those meetings into a successful fundraising narrative, and we grew the company from the three of us, to a team of twenty-one.
@@ -162,21 +162,21 @@ Serving in the United States Senate was an immense honor and privilege that will
 
         <div class="container">
   <div class="grid grid-cols-10 align-items-start">
-    <div class="col-span-2">
+    <div class="col-span-2 px-3 my-auto px-auto">
               <a href="http://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
             </div>
         <div class="col-span-8">
           <div class="flex flex-row" style="justify-content: space-between">
         <div class="">
-                  <h3>Vulpe Lab</h3>
+                  <h1 class="text-lg dark">Vulpe Lab</h1>
             </div>
             <div class="col">
-            <h4><span class="text-primary">August 2010 - July 2012</span></h4>
+            <h1 class="text-lg dark"><span class="text-primary">August 2010 - July 2012</span></h1>
             </div>
             </div>
             <div class="flex-row">
             <div class="col-4">
-                  <h4><strong>Assistant Research Team Leader</strong></h4>
+                  <h1 class="text-lg dark"><strong>Assistant Research Team Leader</strong></h1>
                   <p>
 
                   I was in the ecotoxicogenomics division of the lab, and worked on a very diverse set of chemicals during my tenure. When I became the most senior undergraduate researcher, I was approved to hire and train a team of new students. This bump in productivity led to several significant scientific <a href="https://www.researchgate.net/profile/Daniel_Nowinski" target="_blank">publications</a>. I am still incredibly proud of the work my team was able to accomplish.

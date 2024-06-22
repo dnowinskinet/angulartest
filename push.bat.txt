@@ -1,0 +1,1 @@
+cmd cd C:\Users\Daniel\Documents\GitHub\angulartest npx angular-cli-ghpages --dir=dist/angular/browser
