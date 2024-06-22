@@ -1,1 +1,0 @@
-import{O as o,U as e,wa as i,wd as n,xd as s}from"./chunk-KVCASJRN.js";var I=(()=>{let t=class t{constructor(){this.platformId=e(i)}get onBrowser(){return n(this.platformId)}get onServer(){return s(this.platformId)}};t.\u0275fac=function(a){return new(a||t)},t.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"});let r=t;return r})();export{I as a};
