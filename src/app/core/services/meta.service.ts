@@ -12,7 +12,7 @@ type MetaImageStyle = 'summary_large_image' | 'summary';
 
 export class MetaService {
   public defaultImage: string = './assets/image/meta-image.jpg'
-  public urlKeywords: string[] = ['blog/', 'project/'];
+  public urlKeywords: string[] = ['project/'];
   private meta = inject(Meta);
   private router = inject(Router);
   private title = inject(Title);
