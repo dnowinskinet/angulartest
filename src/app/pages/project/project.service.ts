@@ -10,7 +10,7 @@ export interface ProjectState {
 @Injectable({providedIn: 'root'})
 export class ProjectService {
   private http = inject(HttpClient)
-  private jsonUrl = `${environment.url}/assets/json/projects.json`;
+  private jsonUrl = `${environment}/assets/json/projects.json`;
   // private jsonUrl = `http://localhost:4200/assets/json/projects.json`;
 
   public state = signal<ProjectState>({ projects: []});
