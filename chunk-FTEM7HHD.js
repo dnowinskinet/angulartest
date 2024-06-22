@@ -1,0 +1,1 @@
+var e={name:"Daniel T Nowinski",bio:"an ever curious data scientist in Washington, D.C.",resumeLink:"DNowinski-Resume.pdf",greetings:["Hello, world","Lorem ipsum","Hakuna matata"]},i=e;export{i as a};
