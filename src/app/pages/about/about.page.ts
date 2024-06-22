@@ -1,20 +1,18 @@
 import { NgFor } from '@angular/common';
 import { Component, ViewEncapsulation, effect, inject } from '@angular/core';
 import { MetaService } from '@core/services/meta.service';
-import { TraktTvService } from '@core/services/trakt-tv.service';
 import profileData from '@data/profile.data';
 @Component({
   selector: 'about',
   template: `
   <section class="max-w-screen-lg mx-auto dark:text-gray-200 overflow-y-hidden">
-  <div class="container">
-    <div class="flex container">
-    <br>
-    <div class="flex col flex-row">
-    <div class="col col-5">
+  
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-4">
     <img class="img-responsive product-image-large" src="/assets/image/biography.jpg" alt="biography">
     </div>
-    <div class="col col-2">
+    <div class="col-span-6">
         <h2><span class="text-primary">Daniel T Nowinski</span> <span> (He/Him)</span></h2>
         <br>
         <h4>Data Narrativist and Analytics Nerd</h4>
@@ -28,22 +26,23 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
         </p>
 
       </div>
-    </div>
   </div>
   </div><br> <br> <br>
 
 <!-- Consulting -->
 <div class="container">
-  <div class="flex flex-row align-items-start">
-    <div class="col-4">
-            <a href="https://www.ecmc.org/"><img src="/assets/image/biography/ecmc.png" alt="ECMC" class="img-responsive" style="max-width: 40%"/></a>
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2">
+            <a href="https://www.ecmc.org/"><img src="/assets/image/biography/ecmc.png" alt="ECMC" class="img-responsive"/></a>
         </div>
-        <div class="container-fluid col-sm-10">
-        <div class="col-sm-7">
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
           <h3>ECMC</h3>
         </div>
         <div class="col-sm-4">
           <h4><span class="text-primary">May 2021 - Present</span></h4>
+        </div>
         </div>
         <div class="col-sm-7">
           <h4><strong>Senior Data Scientist</strong></h4>
@@ -56,16 +55,18 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
     <Br>
 <!-- CPP -->
 <div class="container">
-  <div class="flex flex-row align-items-start">
-    <div class="col col-4">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2">
             <a href="https://www.themyersbriggs.com/" ><img  src="/assets/image/biography/MBTI.png" alt="Myers-Briggs" class="img-responsive" /></a>
         </div>
-        <div class="container-fluid col-sm-10">
-        <div class="col-sm-7">
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
           <h3>The Myers-Briggs Company</h3>
         </div>
         <div class="col-sm-4">
           <h4><span class="text-primary">August 2016 - April 2021</span></h4>
+        </div>
         </div>
         <div class="col-sm-7">
           <h4><strong>Operations Manager</strong></h4>
@@ -78,18 +79,20 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
     <Br>
 <!-- Consulting -->
 <div class="container">
-  <div class="flex flex-row align-items-start">
-    <div class="container col-4">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2">
             <a href="https://www.dnowinski.com"><img src="/assets/image/biography/Dhex.png" alt="Consulting" class="img-responsive"/></a>
         </div>
-        <div class="container-fluid col-sm-10">
-        <div class="col-sm-7">
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
           <h2>Daniel T Nowinski</h2>
         </div>
         <div class="col-sm-4">
           <h4><span class="text-primary">August 2014 - August 2016</span></h4>
         </div>
-        <div class="col-sm-7">
+</div>
+        <div class="row">
           <h4><strong>Executive Consultant</strong></h4>
           <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
       </div>
@@ -100,17 +103,19 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
     <Br>
 <!-- U.S. Senate -->
 <div class="container">
-  <div class="flex flex-row align-items-start">
-    <div class="col-4">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2">
             <a href="https://www.senate.gov/" target="_blank"><img src="/assets/image/biography/Senate.png" alt="United States Senate" class="img-responsive" /></a>
         </div>
-        <div class="container-fluid col-sm-10">
-        <div class="col-sm-7">
-          <h3>United States Senate<br>Office of Senator Barbara Boxer</h3>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h3>United States Senate - Office of Senator Barbara Boxer</h3>
         </div>
         <div class="col-sm-4">
           <h4><span class="text-primary">January 2015 - May 2015</span></h4>
-        </div>
+          </div>
+          </div>
         <div class="col-sm-7">
           <h4><strong>Legislative Intern</strong></h4>
           <p>
@@ -127,17 +132,19 @@ Serving in the United States Senate was an immense honor and privilege that will
 
 <!-- GoBeMe -->
 <div class="container">
-  <div class="flex flex-row align-items-start">
-    <div class="container col-4">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2">
                 <a href="https://www.crunchbase.com/organization/gobeme" target="_blank"><img src="/assets/image/biography/GoBeMe.png" alt="GoBeMe" class="img-responsive" /></a>
             </div>
-            <div class="container-fluid col-sm-10">
-            <div class="col-sm-7">
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
               <h3>GoBeMe</h3>
             </div>
             <div class="col-sm-4">
                 <h4><span class="text-primary">August 2012 - May 2014</span></h4>
             </div>
+</div>
             <div class="col-sm-7">
               <h4><strong>Co-Founder, Director of Government Affairs</strong></h4>
               <p>
@@ -153,17 +160,19 @@ Serving in the United States Senate was an immense honor and privilege that will
         <Br>
         <Br>
 
-<div class="container">
-  <div class="flex flex-row align-items-start">
-    <div class="container col-4">
+        <div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2">
               <a href="http://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
             </div>
-            <div class="flex-col">
-            <div class="col">
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
                   <h3>Vulpe Lab</h3>
             </div>
             <div class="col">
             <h4><span class="text-primary">August 2010 - July 2012</span></h4>
+            </div>
             </div>
             <div class="flex-row">
             <div class="col-4">
@@ -199,7 +208,6 @@ Serving in the United States Senate was an immense honor and privilege that will
 })
 export class AboutPage{
   metaService = inject(MetaService)
-  traktTvService = inject(TraktTvService)
   constructor(){
     this.metaService.setMetaTags(
       `About - ${profileData.name}`,
