@@ -19,7 +19,7 @@ const socialLinkData: SocialLinkSchema[] = [
   {
     name: 'Message',
     path: envelope,
-    link: 'mailto:hellp@dnowinski.com?subject=Hello From Your Website!',
+    link: 'mailto:hello@dnowinski.com?subject=Hello From Your Website!',
     color: '#e74c3c',
   },
   {

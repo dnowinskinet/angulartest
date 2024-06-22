@@ -34,8 +34,8 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
 
 <!-- Consulting -->
 <div class="container">
-      <div class="row section section-biowrap">
-        <div class="col-sm-2">
+  <div class="flex flex-row align-items-start">
+    <div class="col-4">
             <a href="https://www.ecmc.org/"><img src="/assets/image/biography/ecmc.png" alt="ECMC" class="img-responsive" style="max-width: 40%"/></a>
         </div>
         <div class="container-fluid col-sm-10">
@@ -56,9 +56,9 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
     <Br>
 <!-- CPP -->
 <div class="container">
-      <div class="row section section-biowrap">
-        <div class="col-sm-2" >
-            <a href="https://www.themyersbriggs.com/" ><img  src="/assets/image/biography/MBTI.png" alt="Myers-Briggs" style="max-width: 40%" /></a>
+  <div class="flex flex-row align-items-start">
+    <div class="col col-4">
+            <a href="https://www.themyersbriggs.com/" ><img  src="/assets/image/biography/MBTI.png" alt="Myers-Briggs" class="img-responsive" /></a>
         </div>
         <div class="container-fluid col-sm-10">
         <div class="col-sm-7">
@@ -78,13 +78,13 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
     <Br>
 <!-- Consulting -->
 <div class="container">
-      <div class="row section section-biowrap">
-        <div class="col-sm-2">
+  <div class="flex flex-row align-items-start">
+    <div class="container col-4">
             <a href="https://www.dnowinski.com"><img src="/assets/image/biography/Dhex.png" alt="Consulting" class="img-responsive"/></a>
         </div>
         <div class="container-fluid col-sm-10">
         <div class="col-sm-7">
-          <h3>Daniel T Nowinski</h3>
+          <h2>Daniel T Nowinski</h2>
         </div>
         <div class="col-sm-4">
           <h4><span class="text-primary">August 2014 - August 2016</span></h4>
@@ -100,9 +100,9 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
     <Br>
 <!-- U.S. Senate -->
 <div class="container">
-      <div class="row section section-biowrap">
-        <div class="col-sm-2">
-            <a href="https://www.boxer.senate.gov/" target="_blank"><img src="/assets/image/biography/Senate.png" alt="United States Senate" class="img-responsive" /></a>
+  <div class="flex flex-row align-items-start">
+    <div class="col-4">
+            <a href="https://www.senate.gov/" target="_blank"><img src="/assets/image/biography/Senate.png" alt="United States Senate" class="img-responsive" /></a>
         </div>
         <div class="container-fluid col-sm-10">
         <div class="col-sm-7">
@@ -126,9 +126,9 @@ Serving in the United States Senate was an immense honor and privilege that will
     <Br>
 
 <!-- GoBeMe -->
-        <div class="container">
-          <div class="row section section-biowrap">
-            <div class="col-sm-2">
+<div class="container">
+  <div class="flex flex-row align-items-start">
+    <div class="container col-4">
                 <a href="https://www.crunchbase.com/organization/gobeme" target="_blank"><img src="/assets/image/biography/GoBeMe.png" alt="GoBeMe" class="img-responsive" /></a>
             </div>
             <div class="container-fluid col-sm-10">
@@ -153,10 +153,10 @@ Serving in the United States Senate was an immense honor and privilege that will
         <Br>
         <Br>
 
-  <div class="container">
-  <div class="row align-items-start">
+<div class="container">
+  <div class="flex flex-row align-items-start">
     <div class="container col-4">
-              <a href="https://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
+              <a href="http://www.vulpelab.net/" target="_blank"><img src="/assets/image/biography/Vulpe.png" alt="Vulpe Lab" class="img-responsive"></a>
             </div>
             <div class="flex-col">
             <div class="col">
