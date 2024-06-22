@@ -43,8 +43,8 @@ export class MetaService {
       {name: 'twitter:title', content: title},
       {name: 'twitter:description', content: description},
       {name: 'twitter:image', content: image || this.defaultImage},
-      {name: 'twitter:site', content: '@marckevinflores'},
-      {name: 'twitter:creator', content: '@marckevinflores'},
+      {name: 'twitter:site', content: '@dnowinski'},
+      {name: 'twitter:creator', content: '@dnowinski'},
     ])
   }
 }
