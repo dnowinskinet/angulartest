@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { SafePipe } from '@core/pipe/safe.pipe';
 import { MarkdownPipe } from '@core/pipe/markdown.pipe';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [SafePipe, MarkdownPipe],

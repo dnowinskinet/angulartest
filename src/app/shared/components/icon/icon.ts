@@ -1,9 +1,11 @@
 import { Component, Signal, ViewEncapsulation, input } from '@angular/core';
 import { NgClass } from '@angular/common'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'icon',
-  imports: [NgClass],
+  imports: [NgClass, FontAwesomeModule],
   encapsulation: ViewEncapsulation.None,
   standalone: true,
   template: `
@@ -19,4 +21,5 @@ export class Icon {
   color = input<string>('');
   viewBox = input<string>('0 0 24 24');
   iconClass = input<string>('');
+  faCoffee = faCoffee;
 }

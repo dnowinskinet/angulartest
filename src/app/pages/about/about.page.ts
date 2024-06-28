@@ -188,6 +188,157 @@ Serving in the United States Senate was an immense honor and privilege that will
                   </div>
                   </div>
 
+<!----- Education --> <br> <br> <br>
+
+
+
+
+<!-- UC Berkeley --> <br> <br> <br>
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2 px-3 my-auto px-auto">
+    <img src="/assets/image/biography/Berkeley.png" alt="UC Berkeley" class="img-responsive"/>
+        </div>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h1 class="text-lg dark">University of California, Berkeley</h1>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-lg dark"><span class="text-primary">August 2010 - May 2012</span></h1>
+        </div>
+        </div>
+        <div class="col-sm-7">
+        <p><em>Bachelor of Science</em> - <a href="#!" data-toggle="collapse" data-target="#dip0"><strong>Molecular Toxicology</strong><div class="collapse" id="dip0"><img class="product-image-large img-responsive" src="assets/img/biography/UCB-BS-Toxicology.jpg"/></div></a></p>
+          <p>Molecular toxicology is the study of the physiological mechanisms of poisons and drugs. There's not a lot of handholding at Berkeley, and many assignments were purposely ambiguous. An example of this was an experimental new course that was taught by a former "big pharma" executive where my group had to go through the FDA drug development process. My favorite course was an acting class that I would guest lecture twice a semester until moving to Washington, D.C.</p>        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Contra Costa College --> <br> <br> <br>
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <img src="/assets/image/biography/CCC.png" alt="Contra Costa College" class="img-responsive"/>
+        </div>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h1 class="text-lg dark">Contra Costa College</h1>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-lg dark"><span class="text-primary">August 2007 - May 2010</span></h1>
+        </div>
+        </div>
+        <div class="col-sm-7">
+        <p><em>Associate in Science</em> - <a href="#!" data-toggle="collapse" data-target="#dip1"><strong>Chemistry</strong><div class="collapse" id="dip1"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AS-Chemistry.jpg"/></div></a></p>
+          <p><em>Associate in Science</em> - <a href="#!" data-toggle="collapse" data-target="#dip2"><strong>Biological Science</strong><div class="collapse" id="dip2"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AS-Biology.jpg"/></div></a></p>
+          <p><em>Associate in Arts</em> - <a href="#!" data-toggle="collapse" data-target="#dip3"><strong>Economics</strong><div class="collapse" id="dip3"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AA-Economics.jpg"/></div></a></p>
+          <p><em>Associate in Arts</em> - <a href="#!" data-toggle="collapse" data-target="#dip4"><strong>Liberal Arts: Math &amp; Science</strong><div class="collapse" id="dip4"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AA-LAMS.jpg"/></div></a></p>
+          <p><em>Associate in Arts</em> - <a href="#!" data-toggle="collapse" data-target="#dip5"><strong>Liberal Arts: Social &amp; Behavioral Sciences</strong><div class="collapse" id="dip5"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AA-LASB.jpg"/></div></a></p>
+          <p>In preparation for my transfer to Berkeley, I took as much as thirty units per semester. Juggling that many classes in several unrelated fields trained me how to become intensely interdisciplinary as well as manage my time with a narrow margin of error.</p>        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<!----- Activities --> <br> <br> <br>
+
+<!-- The Rotary Club of Detroit --> <br> <br> <br>
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <a href="https://www.detroitrotary.org/"target="_blank"><img src="/assets/image/biography/DRotary.png" alt="The Rotary Club of Detroit" class="img-responsive"/></a>
+        </div>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h1 class="text-lg dark">The Rotary Club of Detroit</h1>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-lg dark"><span class="text-primary">August 2021 - June 2025</span></h1>
+        </div>
+</div>
+        <div class="row">
+          <h1 class="text-lg dark"><strong>Board Member</strong></h1>
+          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Berkeley Free Clinic --> <br> <br> <br>
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <a href="https://www.dnowinski.com"target="_blank"><img src="/assets/image/biography/BFC.png" alt="Berkeley Free Clinic" class="img-responsive"/></a>
+        </div>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h1 class="text-lg dark">Berkeley Free Clinic</h1>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-lg dark"><span class="text-primary">January 2011 - May 2011</span></h1>
+        </div>
+</div>
+        <div class="row">
+          <h1 class="text-lg dark"><strong>Volunteer</strong></h1>
+          <p>The Berkeley Free Clinic offers basic medical and dental care, education and vaccination, men's, women's and trans people's STI testing and treatment, anonymous HIV testing, peer counseling, information and referral services, and clean needle services through a collaboration with NEED (Needle Exchange Emergency Distribution).
+         <br>
+          I of course worked in the lab processing urine, blood, and sputum samples. Not a glorious position, but my lab skills were in high demand, and as a member of the local community, how could I not?
+          </p>        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Environmental Leadership Pathway Program --> <br> <br> <br>
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <a href="https://nature.berkeley.edu/cnrelp/2009_cohort.html"target="_blank"><img src="/assets/image/biography/ELP.png" alt="Environmental Leadership Pathway Program" class="img-responsive"/></a>
+        </div>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h1 class="text-lg dark">Environmental Leadership Pathway Program</h1>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-lg dark"><span class="text-primary">January 2009 - December 2009</span></h1>
+        </div>
+</div>
+        <div class="row">
+          <h1 class="text-lg dark"><strong>Fellow</strong></h1>
+          <p>As part of the program we were tasked with finding a teacher to sponsor us in their classroom for half of the school year. I taught third grade natural science at Washington Elementary School in Berkeley. It was an amazing and challenging experience that brought to my attention the critical necessity of parental involvement in their children's education.</p>        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Center for Science Excellence --> <br> <br> <br>
+<div class="container">
+  <div class="grid grid-cols-10 align-items-start">
+    <div class="col-span-2 px-3 my-auto px-auto">
+            <a href="https://www.contracosta.edu/classes/learning-communities/center-science-excellence/"target="_blank"><img src="/assets/image/biography/CSE.png" alt="Center for Science Excellence" class="img-responsive"/></a>
+        </div>
+        <div class="col-span-8">
+          <div class="flex flex-row" style="justify-content: space-between">
+        <div class="">
+          <h1 class="text-lg dark">Center for Science Excellence</h1>
+        </div>
+        <div class="col-sm-4">
+          <h1 class="text-lg dark"><span class="text-primary">September 2007 - May 2010</span></h1>
+        </div>
+</div>
+        <div class="row">
+          <h1 class="text-lg dark"><strong>Fellow</strong></h1>
+          <p>Nominated for membership by my chemistry professor, I was accepted into the Presidential Award winning, Center for Science Excellence (CSE). The program pairs members up with mentors in their STEM field, and provides academic enrichment seminars on Friday afternoons. The seminars prepared me for the many briefings and hearings I would later attend in Congress. It was through this program that I would hear about the Environmental Leadership Pathway Program (ELP).</p>        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
 
                   <br> <br> <br>
 <div class="flex flex-col gap-5">
