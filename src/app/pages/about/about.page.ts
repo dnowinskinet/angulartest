@@ -262,7 +262,7 @@ Serving in the United States Senate was an immense honor and privilege that will
 </div>
         <div class="row">
           <h1 class="text-lg dark"><strong>Board Member</strong></h1>
-          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+          <p>Proud to serve on the board of the Rotary Club of Detroit. I've never been there, and... it's kind of a funny story.</p>        </div>
       </div>
     </div>
   </div>
