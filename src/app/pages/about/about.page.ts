@@ -2,7 +2,7 @@ import { NgFor } from '@angular/common';
 import { Component, ViewEncapsulation, effect, inject } from '@angular/core';
 import { MetaService } from '@core/services/meta.service';
 import profileData from '@data/profile.data';
-import { NgbAccordionButton } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbAccordionDirective, NgbAccordionItem, NgbAccordionBody, NgbAccordionButton, NgbAccordionCollapse, NgbAccordionHeader } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'about',
   template: `
@@ -209,8 +209,12 @@ Serving in the United States Senate was an immense honor and privilege that will
           <h1 class="text-lg dark"><span class="text-primary">August 2010 - May 2012</span></h1>
         </div>
         </div>
-        <div class="col-sm-7">
-        <p><em>Bachelor of Science</em> - <a href="#!" data-toggle="collapse" data-target="#dip0"><strong>Molecular Toxicology</strong><div class="collapse" id="dip0"><img class="product-image-large img-responsive" src="assets/img/biography/UCB-BS-Toxicology.jpg"/></div></a></p>
+        <div class="col-sm-7">        
+        <div class="accordion" id="accordionExample2">
+        <div class="Accordion-Item">
+          <p><em>Bachelor of Science</em> - <button class="Accordion-Button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="false" aria-controls="collapse0"><strong>Molecular Toxicology</strong></button></p>
+          <div id="collapse0" class="NgbAccordionCollapse collapse" data-bs-parent="#accordionExample2" style="">
+          <div class="NgbAccordionBody"><img class="product-image-large img-responsive" src="/assets/image/biography/UCB-BS-Toxicology.jpg"/></div></div></div></div>
           <p>Molecular toxicology is the study of the physiological mechanisms of poisons and drugs. There's not a lot of handholding at Berkeley, and many assignments were purposely ambiguous. An example of this was an experimental new course that was taught by a former "big pharma" executive where my group had to go through the FDA drug development process. My favorite course was an acting class that I would guest lecture twice a semester until moving to Washington, D.C.</p>        </div>
       </div>
     </div>
@@ -232,11 +236,28 @@ Serving in the United States Senate was an immense honor and privilege that will
         </div>
         </div>
         <div class="col-sm-7">
-        <p><em>Associate in Science</em> - <a href="#!" data-toggle="collapse" data-target="#dip1"><strong>Chemistry</strong><div class="collapse" id="dip1"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AS-Chemistry.jpg"/></div></a></p>
-          <p><em>Associate in Science</em> - <a href="#!" data-toggle="collapse" data-target="#dip2"><strong>Biological Science</strong><div class="collapse" id="dip2"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AS-Biology.jpg"/></div></a></p>
-          <p><em>Associate in Arts</em> - <a href="#!" data-toggle="collapse" data-target="#dip3"><strong>Economics</strong><div class="collapse" id="dip3"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AA-Economics.jpg"/></div></a></p>
-          <p><em>Associate in Arts</em> - <a href="#!" data-toggle="collapse" data-target="#dip4"><strong>Liberal Arts: Math &amp; Science</strong><div class="collapse" id="dip4"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AA-LAMS.jpg"/></div></a></p>
-          <p><em>Associate in Arts</em> - <a href="#!" data-toggle="collapse" data-target="#dip5"><strong>Liberal Arts: Social &amp; Behavioral Sciences</strong><div class="collapse" id="dip5"><img class="product-image-large img-responsive" src="assets/img/biography/CCC-AA-LASB.jpg"/></div></a></p>
+        <div class="accordion" id="accordionExample">
+        <div class="NgbAccordionItem">
+          <p><em>Associate in Science</em> - <button class="NgbAccordionButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1"><strong>Chemistry</strong></button></p>
+          <div id="collapse1" class="NgbAccordionCollapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="NgbAccordionBody"><img class="product-image-large img-responsive" src="/assets/image/biography/CCC-AS-Chemistry.jpg"/></div></div>
+
+          <p><em>Associate in Science</em> - <button class="NgbAccordionButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2"><strong>Biological Science</strong></button></p>
+          <div id="collapse2" class="NgbAccordionCollapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="NgbAccordionBody"><img class="product-image-large img-responsive" src="/assets/image/biography/CCC-AS-Biology.jpg"/></div></div>
+
+          <p><em>Associate in Arts</em> - <button class="NgbAccordionButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><strong>Economics</strong></button></p>
+          <div id="collapse3" class="NgbAccordionCollapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="NgbAccordionBody"><img class="product-image-large img-responsive" src="/assets/image/biography/CCC-AA-Economics.jpg"/></div></div>
+
+          <p><em>Associate in Arts</em> - <button class="NgbAccordionButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><strong>Liberal Arts: Math &amp; Science</strong></button></p>
+          <div id="collapse4" class="NgbAccordionCollapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="NgbAccordionBody"><img class="product-image-large img-responsive" src="/assets/image/biography/CCC-AA-LAMS.jpg"/></div></div>
+
+          <p><em>Associate in Arts</em> - <button class="NgbAccordionButton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5"><strong>Liberal Arts: Social &amp; Behavioral Sciences</strong></button></p>
+          <div id="collapse5" class="NgbAccordionCollapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="NgbAccordionBody"><img class="product-image-large img-responsive" src="/assets/image/biography/CCC-AA-LASB.jpg"/></div></div></div></div>
+
           <p>In preparation for my transfer to Berkeley, I took as much as thirty units per semester. Juggling that many classes in several unrelated fields trained me how to become intensely interdisciplinary as well as manage my time with a narrow margin of error.</p>        </div>
       </div>
     </div>

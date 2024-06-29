@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@bootstrap 
 
 body{
   @apply bg-white dark:bg-gray-900
@@ -24,6 +25,13 @@ a{
 
 .medium-zoom-image{
   @apply z-10
+}
+
+.collapse{
+  &:not(.show) {
+    display: none;
+  }
+  visibility: visible;
 }
 
 /* Importing Bootstrap SCSS file. 
