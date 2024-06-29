@@ -24,8 +24,7 @@ import { ToolbarColor } from '@shared/components/toolbar-color/toolbar-color'
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
   standalone: true,
-  template: `<nav
-  class="bg-gray-50/75 dark:bg-gray-900/75 fixed w-full z-[2] top-0 start-0 backdrop-blur-lg rounded">
+  template: `<nav class="bg-gray-50/75 dark:bg-gray-900/75 fixed w-full z-[2] top-0 start-0 backdrop-blur-lg rounded">
   <toolbar-color/>
   <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4 border-y border-gray-200 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-700">
     <img src="/assets/image/logo.png" alt="dnowinski logo" class="img-responsive" style="height:40px;"/>
