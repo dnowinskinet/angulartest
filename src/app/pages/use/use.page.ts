@@ -56,7 +56,7 @@ import { Logo } from '@shared/components/logo/logo';
 
     <h2 class="text-xl font-bold dark:text-white">Logo:</h2>
     <p class="text-black dark:text-white">
-    I designed the logo myself, incorporating the first letters of my full name M, K, and F to create a concise design. The inspiration struck me during a Google search.
+    I designed the logo myself, mixing chemistry with the color theme of my first ever website in 2015.
     </p>
     <div
       class="grid grid-cols-1 sm:grid-cols-2 items-center place-items-center"
@@ -82,7 +82,7 @@ export class UsePage {
   constructor(){
     this.metaService.setMetaTags(
       `Uses - ${profileData.name}`,
-      'Dive into my portfolio, a passionate software engineer based in the Philippines. Explore the intricacies of my journey, from personal details to exciting projects. Join me on this virtual exploration of technology, creativity, and more.',
+      'Dive into my portfolio, an ever curious data scientist in Washington, D.C.',
       [
         'daniel thomas nowinski',
         'daniel thomas',
