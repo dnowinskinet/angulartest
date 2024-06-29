@@ -1,11 +1,11 @@
 const themeColorData: string[] = [
-  '#3867d6',
-  '#d63031',
-  '#8854d0',
-  '#d63384',
-  '#198754',
-  '#4b6584',
-  '#79443B'
+  '#0252a7',
+  '#E94823',
+  '#eab308',
+  '#a70210',
+  '#02a736',
+  '#4b369d',
+  '#79911d'
 ];
 
 export default themeColorData
