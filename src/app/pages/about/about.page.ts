@@ -368,7 +368,7 @@ export class AboutPage{
     {
       title: 'Address',
       desc: `Washington, D.C.`,
-      link: 'https://maps.app.goo.gl/dT2aE2RxeQTEA7ne7'
+      link: 'https://maps.app.goo.gl/nZuQD3utJi5AtVmu9'
     },
     {
       title: 'Email',
