@@ -47,7 +47,7 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
         </div>
         <div class="col-sm-7">
           <h1 class="text-lg dark"><strong>Senior Data Scientist</strong></h1>
-          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+          <p>This is my current position. I'm still working on the U.S. Department of Education project that I was focusing on at TMBC, but my role here is multi-team so I get to have a wide variety of projects to work on.</p>        </div>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ As an extrovert, I always enjoy meeting new people, finding out what they’re p
         </div>
         <div class="col-sm-7">
           <h1 class="text-lg dark"><strong>Operations Manager</strong></h1>
-          <p>Clients generally approach me to help guide them through federal policy issues. I also work on stakeholder outreach, preparing fundraising narratives, and incorporating best practices into their products.</p>        </div>
+          <p>My entire focus at TMBC was a digital assessment platform called VitaNavis. I didn't code it or sell it, but I was the person behind the scenes configuring offerings, training customers, creating digital assets, and creating implementation plans for institutions. Beyond the platform and assets, my main focus was implementing Vitanavis for a U.S. Department of Education initiative that assigned resources to minority-serving-institutions across the country.</p>        </div>
       </div>
     </div>
   </div>
